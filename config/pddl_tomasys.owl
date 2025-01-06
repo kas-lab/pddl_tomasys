@@ -42,9 +42,9 @@
 
 
 
-    <!-- http://www.metacontrol.org/tomasys#fd_better_utility -->
+    <!-- http://www.metacontrol.org/tomasys#fdBetterUtility -->
 
-    <owl:ObjectProperty rdf:about="http://www.metacontrol.org/tomasys#fd_better_utility">
+    <owl:ObjectProperty rdf:about="http://www.metacontrol.org/tomasys#fdBetterUtility">
         <rdfs:domain rdf:resource="http://www.metacontrol.org/tomasys#FunctionDesign"/>
         <rdfs:range rdf:resource="http://www.metacontrol.org/tomasys#FunctionDesign"/>
     </owl:ObjectProperty>
@@ -405,7 +405,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fd_better_utility</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fdBetterUtility</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -517,7 +517,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.metacontrol.org/tomasys#fd_better_utility"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.metacontrol.org/tomasys#fdBetterUtility"/>
                         <swrl:argument1 rdf:resource="http://www.metacontro.org/tomasys#fd_better"/>
                         <swrl:argument2 rdf:resource="http://www.metacontro.org/tomasys#fd"/>
                     </rdf:Description>

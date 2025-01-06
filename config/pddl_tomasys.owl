@@ -193,15 +193,6 @@
 
 
 
-    <!-- http://www.metacontrol.org/tomasys#qa_critical -->
-
-    <owl:DatatypeProperty rdf:about="http://www.metacontrol.org/tomasys#qa_critical">
-        <rdfs:domain rdf:resource="http://www.metacontrol.org/tomasys#QualityAttributeType"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    </owl:DatatypeProperty>
-
-
-
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //

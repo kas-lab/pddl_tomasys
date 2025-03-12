@@ -60,12 +60,6 @@
     
 
 
-    <!-- http://www.metacontrol.org/tomasys#hasPddlType -->
-
-    <owl:ObjectProperty rdf:about="http://www.metacontrol.org/tomasys#hasPddlType"/>
-    
-
-
     <!-- http://www.metacontrol.org/tomasys#hasQAestimation -->
 
     <owl:ObjectProperty rdf:about="http://www.metacontrol.org/tomasys#hasQAestimation">
@@ -179,12 +173,6 @@
         <rdfs:domain rdf:resource="http://www.metacontrol.org/tomasys#FunctionDesign"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.metacontrol.org/tomasys#pddlName -->
-
-    <owl:DatatypeProperty rdf:about="http://www.metacontrol.org/tomasys#pddlName"/>
     
 
 

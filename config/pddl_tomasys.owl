@@ -62,9 +62,7 @@
 
     <!-- http://www.metacontrol.org/tomasys#hasPddlType -->
 
-    <owl:ObjectProperty rdf:about="http://www.metacontrol.org/tomasys#hasPddlType">
-        <rdfs:range rdf:resource="http://www.metacontrol.org/tomasys#PddlType"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.metacontrol.org/tomasys#hasPddlType"/>
     
 
 
@@ -186,9 +184,7 @@
 
     <!-- http://www.metacontrol.org/tomasys#pddlName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.metacontrol.org/tomasys#pddlName">
-        <rdfs:domain rdf:resource="http://www.metacontrol.org/tomasys#PddlType"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.metacontrol.org/tomasys#pddlName"/>
     
 
 
@@ -234,12 +230,6 @@
     <!-- http://www.metacontrol.org/tomasys#FunctionDesign -->
 
     <owl:Class rdf:about="http://www.metacontrol.org/tomasys#FunctionDesign"/>
-    
-
-
-    <!-- http://www.metacontrol.org/tomasys#PddlType -->
-
-    <owl:Class rdf:about="http://www.metacontrol.org/tomasys#PddlType"/>
     
 
 
@@ -289,24 +279,6 @@
         <rdf:type rdf:resource="http://www.metacontrol.org/tomasys#QAvalue"/>
         <tomasys:isQAtype rdf:resource="http://www.metacontrol.org/tomasys#performance"/>
         <tomasys:qa_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</tomasys:qa_has_value>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.metacontrol.org/tomasys#type_function -->
-
-    <owl:NamedIndividual rdf:about="http://www.metacontrol.org/tomasys#type_function">
-        <rdf:type rdf:resource="http://www.metacontrol.org/tomasys#PddlType"/>
-        <tomasys:pddlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">function</tomasys:pddlName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.metacontrol.org/tomasys#type_function_design -->
-
-    <owl:NamedIndividual rdf:about="http://www.metacontrol.org/tomasys#type_function_design">
-        <rdf:type rdf:resource="http://www.metacontrol.org/tomasys#PddlType"/>
-        <tomasys:pddlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">function-design</tomasys:pddlName>
     </owl:NamedIndividual>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
